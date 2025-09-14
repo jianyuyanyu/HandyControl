@@ -35,6 +35,14 @@ public partial class App
         EnsureSingleton();
         OpenSplashScreen();
 
+        var prepWindow = new System.Windows.Window
+        {
+            Width = 0,
+            Height = 0,
+        };
+        prepWindow.Show();
+        prepWindow.Hide(); // 此时渲染管线已完成初始化
+
         base.OnStartup(e);
 
         //UpdateRegistry();

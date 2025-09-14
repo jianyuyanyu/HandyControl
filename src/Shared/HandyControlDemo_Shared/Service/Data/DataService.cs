@@ -50,7 +50,7 @@ public class DataService
     internal List<DemoDataModel> GetDemoDataList()
     {
         var list = new List<DemoDataModel>();
-        for (var i = 1; i <= 20; i++)
+        for (var i = 1; i <= 30; i++)
         {
             var dataList = new List<DemoDataModel>();
             for (var j = 0; j < 3; j++)

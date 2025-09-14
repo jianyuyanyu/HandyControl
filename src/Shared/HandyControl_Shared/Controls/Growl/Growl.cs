@@ -356,7 +356,7 @@ public class Growl : Control
                         InitGrowlPanel(GrowlWindow.GrowlPanel);
                     }
 
-                    GrowlWindow.UpdatePosition(Growl.GetTransitionMode(Application.Current.MainWindow));
+                    GrowlWindow.UpdatePosition(GetTransitionMode(Application.Current.MainWindow));
                     GrowlWindow.Show(true);
 
                     var ctl = new Growl
@@ -1057,7 +1057,7 @@ public class Growl : Control
             TransitionMode.Custom)
         {
             return null;
-        } 
+        }
 
         var animation = AnimationHelper.CreateAnimation(isClose ? 0 : 1);
         animation.From = isClose ? 1 : 0;

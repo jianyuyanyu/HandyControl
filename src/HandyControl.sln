@@ -46,6 +46,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandyControl_Avalonia", "Av
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandyControlDemo_Avalonia", "Avalonia\HandyControlDemo_Avalonia\HandyControlDemo_Avalonia.csproj", "{99CCAF7C-F9A1-4C54-A5F0-B231E7F7AE66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{5CD0C03A-EF32-4C75-9B65-2DBD15A669B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug-Avalonia|Any CPU = Debug-Avalonia|Any CPU
@@ -114,6 +116,18 @@ Global
 		{99CCAF7C-F9A1-4C54-A5F0-B231E7F7AE66}.Release-Avalonia|Any CPU.Build.0 = Release|Any CPU
 		{99CCAF7C-F9A1-4C54-A5F0-B231E7F7AE66}.Release-Net40|Any CPU.ActiveCfg = Release|Any CPU
 		{99CCAF7C-F9A1-4C54-A5F0-B231E7F7AE66}.Release-Net-GE45|Any CPU.ActiveCfg = Release|Any CPU
+		{5CD0C03A-EF32-4C75-9B65-2DBD15A669B9}.Debug-Avalonia|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD0C03A-EF32-4C75-9B65-2DBD15A669B9}.Debug-Avalonia|Any CPU.Build.0 = Debug|Any CPU
+		{5CD0C03A-EF32-4C75-9B65-2DBD15A669B9}.Debug-Net40|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD0C03A-EF32-4C75-9B65-2DBD15A669B9}.Debug-Net40|Any CPU.Build.0 = Debug|Any CPU
+		{5CD0C03A-EF32-4C75-9B65-2DBD15A669B9}.Debug-Net-GE45|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD0C03A-EF32-4C75-9B65-2DBD15A669B9}.Debug-Net-GE45|Any CPU.Build.0 = Debug|Any CPU
+		{5CD0C03A-EF32-4C75-9B65-2DBD15A669B9}.Release-Avalonia|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD0C03A-EF32-4C75-9B65-2DBD15A669B9}.Release-Avalonia|Any CPU.Build.0 = Debug|Any CPU
+		{5CD0C03A-EF32-4C75-9B65-2DBD15A669B9}.Release-Net40|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD0C03A-EF32-4C75-9B65-2DBD15A669B9}.Release-Net40|Any CPU.Build.0 = Debug|Any CPU
+		{5CD0C03A-EF32-4C75-9B65-2DBD15A669B9}.Release-Net-GE45|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD0C03A-EF32-4C75-9B65-2DBD15A669B9}.Release-Net-GE45|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
